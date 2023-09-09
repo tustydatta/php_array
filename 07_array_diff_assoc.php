@@ -1,4 +1,4 @@
- <?php
+<?php
 
 $array_one = array(
     "a" => "red",
@@ -15,11 +15,11 @@ $array_two = array(
 
 $array_three = array(
     "a" => "red",
-    "b" => "black",
-    "h" => "yellow"
+    "f" => "blue",
+    "b" => "green"
 );
 
-$differ = array_diff($array_one, $array_two, $array_three);
+$differ = array_diff_assoc($array_one, $array_two, $array_three);
 
 print("<pre>");
 print_r($differ);
