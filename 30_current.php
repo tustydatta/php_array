@@ -6,8 +6,10 @@ print("<pre>");
 print_r($name);
 print("</pre>");
 
-echo "Current Value: " current($name) . "<br/>";
-echo "Next Value: " next($name) . "<br/>";
-echo "Last Value: " end($name) . "<br/>";
+echo "Current Value: " . current($name) . "<br/>";
+echo "Next Value: " . next($name) . "<br/>";
+echo "Current Value: " . current($name) . "<br/>";
+echo "Last Value: " . end($name) . "<br/>";
+echo "Previus Value: " . prev($name) . "<br/>";
 
 ?>
